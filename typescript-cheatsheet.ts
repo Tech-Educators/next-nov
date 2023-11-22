@@ -171,6 +171,7 @@ course('unity') // good!
 // we can also use this to make 'custom' types using the type keyword, which is much more readable, and allows you to easily reuse common literal types in your program. 
 
 type courses = 'software-dev' | 'unity' | 'quantum mechanics'
+let myCourse:courses = 'unity'
 
 const courseList = (course:courses) => console.log(`You're also doing the course ${course}`)
 
@@ -182,3 +183,23 @@ type Plants = 'fern' | 'sunflower' | 'peach'
 
 const logPlant = (input: Plants) => console.log(`You like ${input}`)
 
+let x:number = '2312' // number
+let y:string = '4' // string
+
+
+type thisObject = {
+    name: string,
+    title:string,
+    age: number
+}
+
+let apple: thisObject= {
+    name : 'hello',
+    age: 42
+}
+
+let myobj2: thisObject = {
+    name: 'sam',
+    title: 'the best',
+    age: 34
+}
