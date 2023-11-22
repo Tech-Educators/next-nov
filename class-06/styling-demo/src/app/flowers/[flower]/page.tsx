@@ -1,13 +1,18 @@
 import { getFlowers, formatNameForURL} from "@/lib/getFlowers"
 import Image from "next/image"
 
-export const dynamic = 'force-static'
-
 export function generateStaticParams() {
     const flowers = getFlowers()
-    return [{slug: 'foo'}, {slug: 'bar'}]
-    // return flowers.map(flower => {slug : flower.name})
+    return flowers.map(flower => ({flower : flower.name}))
 }
+
+// export function generateStaticParams () {
+//     return [{flower: "123"}]
+// }
+
+// export default function Page({params}: {params: {flower: any}}) {
+//     return <p> {params.flower} </p>
+// }
 
 
 export default function Page({params} : {params: {flower: string}}) {
