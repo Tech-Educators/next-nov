@@ -1,13 +1,16 @@
 import styles from './GlassCard.module.css'
+import Link from 'next/link'
+import { formatNameForURL } from '@/lib/getFlowers'
+import { quicksand } from '@/app/layout'
 
-export default function GlassCard() {
+export default function GlassCard({name, color, nativeRegion, bloomingSeason, uniqueFact}) {
     return (
         <div className={`${styles.glasscard} ${styles.glasseffect}`}>
-            <h2 className='text-blue-500'>Animals facts</h2>
-            <p><strong>Animals:</strong>Husky</p>
-            <p><strong>Fact 1:</strong>They are loud</p>
-            <p><strong>Work History:</strong>Huskies were developed as working sled dogs</p>
-            <p><strong>Life and Death</strong>The average lifespan is 12-15 years</p>
+            <Link href={`/flowers/${formatNameForURL(name)}`}><h2 className='text-blue-500'>{name}</h2></Link>
+            <p><strong>Colour:</strong>{color}</p>
+            <p><strong>Native Region:</strong>{nativeRegion}</p>
+            <p><strong>Blooming Season:</strong>{bloomingSeason}</p>
+            <p><strong>Unqiue Fact:</strong>{uniqueFact}</p>
         </div>
     )
 }

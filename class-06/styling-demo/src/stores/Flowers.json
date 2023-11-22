@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Blue Poppy",
+        "color": "Blue",
+        "nativeRegion": "Himalayas",
+        "bloomingSeason": "Spring",
+        "uniqueFact": "It is known for its intense blue petals and is often found at high altitudes."
+    },
+    {
+        "name": "Corpse Flower",
+        "color": "Red and Purple",
+        "nativeRegion": "Sumatra",
+        "bloomingSeason": "Irregular",
+        "uniqueFact": "One of the world's largest and rarest flowers, it emits a strong odor of decaying flesh when it blooms."
+    },
+    {
+        "name": "Chocolate Cosmos",
+        "color": "Dark Red",
+        "nativeRegion": "Mexico",
+        "bloomingSeason": "Summer to Autumn",
+        "uniqueFact": "These flowers have a rich, chocolate-like scent and are deep red, resembling the color of cocoa."
+    },
+    {
+        "name": "Jade Vine",
+        "color": "Turquoise",
+        "nativeRegion": "Philippines",
+        "bloomingSeason": "Spring",
+        "uniqueFact": "Known for its spectacular, claw-shaped flowers, the color of which is a rare shade in the plant kingdom."
+    },
+    {
+        "name": "Black Bat Flower",
+        "color": "Black",
+        "nativeRegion": "Southeast Asia",
+        "bloomingSeason": "Late Summer",
+        "uniqueFact": "This flower is distinctive for its black color and large size, with long 'whiskers' that can grow up to 28 inches."
+    }
+]
