@@ -6,7 +6,8 @@ export type typeFlowers = {
     color: string,
     nativeRegion: string,
     bloomingSeason: string,
-    uniqueFact: string
+    uniqueFact: string,
+    image? : string
 }
 
 

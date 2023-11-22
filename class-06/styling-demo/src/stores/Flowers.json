@@ -4,7 +4,8 @@
         "color": "Blue",
         "nativeRegion": "Himalayas",
         "bloomingSeason": "Spring",
-        "uniqueFact": "It is known for its intense blue petals and is often found at high altitudes."
+        "uniqueFact": "It is known for its intense blue petals and is often found at high altitudes.",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/b/b1/Himalayan_Blue_Poppy_%28Meconopsis_grandis%29_-_Jura_House_Gardens_-_geograph.org.uk_-_1327483.jpg"
     },
     {
         "name": "Corpse Flower",
