@@ -23,13 +23,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}`}>{children}</body>
-      <Image
+      {/* <Image
         src='/images.jpeg'
         width={300}
         height={168}
         alt='this is an image of something'
         />
-        <Image src='https://images.unsplash.com/photo-1606041008023-472dfb5e530f?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='a flower' height={976} width={653} ></Image>
+        <Image src='https://images.unsplash.com/photo-1606041008023-472dfb5e530f?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='a flower' height={976} width={653} ></Image> */}
     </html>
   )
 }
