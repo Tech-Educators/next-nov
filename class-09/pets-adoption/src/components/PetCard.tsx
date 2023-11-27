@@ -1,5 +1,10 @@
 import Image from "next/image"
-export default function PetCard({petProp}) {
+import { typePets } from "@/lib/petsLib"
+
+interface petCardProps {
+    petProp: typePets
+}
+export default function PetCard({petProp}: petCardProps) {
     return (
         <div>
             {petProp.image && (
