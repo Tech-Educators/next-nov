@@ -4,22 +4,6 @@ After deploying our app to Vercel as a walking skeleton we can use the Vercel KV
 
 We can connect to this database locally as well, and it's especially easy if we use the Vercel CLI.
 
-# Using Vercel KV
-
-We'll install the Vercel KV library, and simply call the `kv.incr` function it in our page or layout component to increment the value stored under the `views` key. It'll simply add one to the saved value and return it every time it is run, so we can show it on the page.
-
-`npm install @vercel/kv`
-
-```tsx
-// /app/page.tsx
-import kv from "@vercel/kv";
-
-export default async function ViewCounterRoute() {
-  const pageViews = await kv.incr("views");
-
-  return <div>Viewed {pageViews} times.</div>;
-}
-```
 
 Head over to the Vercel Dashboard at Vercel.com and follow these steps on the Storage tab.
 
